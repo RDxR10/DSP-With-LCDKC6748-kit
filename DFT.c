@@ -15,9 +15,3 @@ void main(){
             printf("%0.2f + j%0.2f\n",Yreal[k],Yimag[k]);
         }
     }
-
-
-
-
-
-
