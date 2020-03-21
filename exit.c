@@ -3,7 +3,7 @@
 
 #if defined(__TI_RECURSIVE_RESOURCE_MUTEXES)
 void  _DATA_ACCESS 	(*_delete_mutexes_ptr)(void) = NULL;
-
+#endif
 void  _DATA_ACCESS	(*_cleanup_ptr)(void) = NULL;
 void  _DATA_ACCESS	(*_dtors_ptr)(int)    = NULL;
 
